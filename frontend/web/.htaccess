@@ -1,0 +1,7 @@
+  RewriteEngine on
+    # 如果一个目录或一个文件存在，请直接使用请求
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # 否则去请求 index.php
+    RewriteRule . index.php
+    DirectoryIndex index.php
