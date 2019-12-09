@@ -20,6 +20,7 @@ class CommonController extends Controller
         Yii::$app->params['keyword'] = Yii::$app->params['config']['site_keyword'];
         Yii::$app->params['describe'] = Yii::$app->params['config']['site_describe'];
         Yii::$app->params['describe'] = Yii::$app->params['config']['site_describe'];
+        Yii::$app->params['describe'] = Yii::$app->params['config']['site_describe'];
     }
 
     /**
