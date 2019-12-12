@@ -17,7 +17,9 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Yii::$app->params['seo_title'] ?></title>
+    <meta name="keywords" content="<?=Yii::$app->params['keywords']?>">
+    <meta name="description" content="<?= Yii::$app->params['describe'] ?>">
     <?php $this->head() ?>
     <link rel="stylesheet/less" type="text/css" href="/css/styles.less" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.10.0-beta/less.min.js" ></script>
