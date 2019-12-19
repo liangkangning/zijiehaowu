@@ -28,7 +28,7 @@ class SiteController extends CommonController
      */
     public function actionIndex(){
 
-        Yii::$app->params['goods_hot']  = Goods::find()->orderBy('id desc')->all();
+        Yii::$app->params['goods_hot']  = Goods::find()->limit('20')->orderBy('id desc')->all();
         return $this->render('index');
     }
 

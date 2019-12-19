@@ -65,19 +65,21 @@ AppAsset::register($this);
                     </li>
                     <li class="col-md-4">
                         <div class="title">联系我们</div>
-                        <div class="item"><a href="#">邮箱：635442166@qq.com</a></div>
-                        <div class="item"><a href="#">固话：020-8888888</a></div>
+                        <div class="item"><a href="#">邮箱：<?= Yii::$app->params['config']['email']?></a></div>
+                        <div class="item"><a href="#">固话：<?= Yii::$app->params['config']['mobile']?></a></div>
                     </li>
                 </ul>
             </div>
             <div class="pull-right col-md-2">
-                <img src="http://cdn.bxiaobao.com/object_image_1567495314043" alt="">
+                <img src="<?=Yii::$app->params['config']['erweimaUrl'] ?>" alt="">
             </div>
         </div>
         </div>
         <div class="bottom row">
             <div class="container">
-                <p class="text-center"> 广州字节动不动有限公司 | CopyRight 2017-2019 粤ICP备xxxxx号-1 | 字节好物 www.zijiehaowu.com </p>
+                <div class="text-center">
+                     <?=Yii::$app->params['config']['bottom_text'] ?>
+                </div>
             </div>
         </div>
 

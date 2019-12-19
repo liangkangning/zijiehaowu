@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c86f42a-f264-41cd-9b42-3c6dae0547e7" name="Default Changelist" comment="" />
+    <list default="true" id="0c86f42a-f264-41cd-9b42-3c6dae0547e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -46,6 +54,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1UCn1fhhRezLHRzpNE7XHkSd3iY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -94,10 +103,30 @@
       <workItem from="1575205165342" duration="972000" />
       <workItem from="1575288654682" duration="8889000" />
       <workItem from="1575550352826" duration="7270000" />
+      <workItem from="1575776024879" duration="1217000" />
+      <workItem from="1575812157595" duration="164000" />
+      <workItem from="1575883264490" duration="2435000" />
+      <workItem from="1575947096282" duration="561000" />
+      <workItem from="1576027534874" duration="15000" />
+      <workItem from="1576128522660" duration="632000" />
+      <workItem from="1576718793493" duration="1244000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
